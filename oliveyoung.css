@@ -1,0 +1,172 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f6f6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.window {
+  width: 900px;
+  height: 900px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.title {
+  text-align: center;
+  margin: 60px;
+}
+
+.title > h1 {
+  font-size: 29px;
+  margin: -15px 0px;
+}
+
+.title > p {
+  font-size: 17px;
+  color: #888888;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.login {
+  width: 70%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 100%;
+  height: 440px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+#login-form > * {
+  width: 100%;
+  height: 55px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  border: none;
+  border: 1px solid #d2d2d2;
+}
+#login-form > #id {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: none;
+}
+
+#login-form > #id:focus, #password:focus {
+  border-color: #9bcf23;
+  outline: none;
+}
+#login-form > #password {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.find {
+  width: 90%;
+  height: 30px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find > * {
+  font-size: 14px;
+  margin-top : -55px;
+}
+
+.save {
+  color: #333333;
+}
+.save > input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.find a {
+  color: #999999;
+}
+.find p {
+  color: #d2d2d2;
+}
+
+.login-btn button{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  line-height: 70px;
+  background: #9bcf23;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+  border: transparent
+}
+
+/*kakao*/
+
+.kakao {
+  width: 100%;
+  height: 90px;
+  align-items:flex-start;
+  margin-top: 17px;
+  justify-content: space-between;
+  display: flex;
+}
+.kakao p {
+  font-size: 13px;
+  color: #999999;
+}
+.kakao img {
+  width: 30%;
+}
+
+
+/*cjone*/
+.cjone {
+  width: 100%;
+  height: 100%;
+}
+.cjone img {
+  margin-top: 10px;
+  width: 30%;
+}
+
+.cjone_signup {
+  display: flex;
+  justify-content: space-between;
+}
+.cjone_signup p {
+  font-size: 13px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.cjone_signup button {
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #ffffff;
+  cursor: pointer;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
